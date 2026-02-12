@@ -26,6 +26,3 @@ ipykernel
 # 1. This configuration is based on the actual output of `pip list` in the running environment
 # 2. All version numbers have been verified to work properly with Python 3.8.10 + TensorFlow 2.10
 # 3. GPU support requires additional installation: CUDA 11.2 + cuDNN 8.1
-# 4. Optional packages (such as swanlab, streamlit) can be commented out as needed
-# 5. It is recommended to install in a virtual environment to avoid version conflicts
-
