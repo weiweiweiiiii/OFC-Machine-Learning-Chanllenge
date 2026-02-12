@@ -11,11 +11,13 @@ Additionally, **COSMOS_EDFA_Dataset** is under `dataset/`, which provides extra 
 
 ## Environment
 
-- Recommended Python version: **Python 3.8.10**  
+- Recommended Python version: **3.8.10**  
 
 ```bash
-pip install -U pip
-pip install pandas numpy matplotlib tensorflow==2.10 prettytable scipy scikit-learn
+py -3.8 -m venv venv
+venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 > The feature extraction script imports `libs.edfa_feature_extraction_libs` and `libs.edfaBasicLib`.  

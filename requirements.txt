@@ -1,0 +1,31 @@
+# ============================================
+# OFC-2026 ML Challenge 
+# Python Version: 3.8.10
+# TensorFlow Version: 2.10.0
+# ============================================
+# 
+# install command: pip install -r requirements.txt
+#
+
+tensorflow==2.10.0
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.2.2
+matplotlib==3.7.1
+prettytable==3.7.0
+swanlab
+ipykernel
+
+
+
+
+# ============================================
+# Instructions
+# ============================================
+# 1. This configuration is based on the actual output of `pip list` in the running environment
+# 2. All version numbers have been verified to work properly with Python 3.8.10 + TensorFlow 2.10
+# 3. GPU support requires additional installation: CUDA 11.2 + cuDNN 8.1
+# 4. Optional packages (such as swanlab, streamlit) can be commented out as needed
+# 5. It is recommended to install in a virtual environment to avoid version conflicts
+
